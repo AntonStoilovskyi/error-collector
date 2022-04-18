@@ -1,0 +1,22 @@
+{
+  "name": "error-collector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonStolov/error-collector.git"
+  },
+  "author": "antonStolov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonStolov/error-collector/issues"
+  },
+  "homepage": "https://github.com/AntonStolov/error-collector#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
