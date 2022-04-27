@@ -1,4 +1,4 @@
-class ErrorBag {
+export class ErrorBag {
     private errors: Error[];
 
     constructor() {
@@ -6,10 +6,11 @@ class ErrorBag {
     }
 
     public add(error: unknown) {
+        
         if (error instanceof Error) {
             this.errors.push(error);
+            return;
         }
-        throw new Error('Invalid error type');
     }
 
     public getErrors(): Error[] {

@@ -1,9 +1,10 @@
 {
   "name": "error-collector",
-  "version": "1.0.0",
+  "version": "0.2.1",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
+    "registry:push": "tsc && npm publish",
     "test": "jest"
   },
   "repository": {
@@ -15,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/AntonStolov/error-collector/issues"
   },
-  "homepage": "https://github.com/AntonStolov/error-collector#readme",
-  "devDependencies": {
-    "typescript": "^4.6.3"
-  }
+  "homepage": "https://github.com/AntonStolov/error-collector#readme"
 }
