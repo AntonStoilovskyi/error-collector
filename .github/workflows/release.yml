@@ -16,6 +16,8 @@ jobs:
               with:
                   node-version: 12
                   registry-url: https://registry.npmjs.org
+            - name: npm install
+              uses: npm install
             - name: tsc
               uses: icrawl/action-tsc@v1
             - name: publish
