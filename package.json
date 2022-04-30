@@ -1,6 +1,6 @@
 {
   "name": "error-collector",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/AntonStolov/error-collector.git"
   },
-  "author": "antonStolov",
+  "author": "AntonStolov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AntonStolov/error-collector/issues"
