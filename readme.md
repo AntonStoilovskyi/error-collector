@@ -1,7 +1,10 @@
 Simple error bag collector
 ---
+
 Usage
+
 1. typescript example
+
 ```ts
 import { ErrorBag } from 'error-collector';
 const errorBag = new ErrorBag();
@@ -12,11 +15,12 @@ try {
     errorBag.add(error);
 }
 
-errorBag.logErrors(); // just loging errors
+errorBag.logErrors(); // just logging errors
 errorBag.handleErrors(); // throw all errors in one error
 ```
 
-2. javascript example
+2. JavaScript example
+
 ```js
 const { ErrorBag } = require('error-collector');
 
