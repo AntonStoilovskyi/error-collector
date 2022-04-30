@@ -1,1 +1,1 @@
-export * from './ErrorBag';
+export * from './src/ErrorBag';
