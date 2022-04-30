@@ -18,10 +18,12 @@ jobs:
                   registry-url: https://registry.npmjs.org
             - name: npm install
               run:  npm install
-            - name: install npx
-              uses: mikeal/npx@master
+            - name: tsc
+              uses: icrawl/action-tsc@v1
             - name: compile
-              run:  npx tsc
+              run:  tsc
+            - name: show files
+              run:  ls
             - name: publish
               run:  npm publish --access public
               env:
