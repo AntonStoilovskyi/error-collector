@@ -5,6 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "registry:push": "tsc && npm publish",
+    "compile": "tsc",
     "test": "jest"
   },
   "repository": {
@@ -16,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/AntonStolov/error-collector/issues"
   },
-  "homepage": "https://github.com/AntonStolov/error-collector#readme",
-  "dependencies": {
-    "typescript": "^4.6.4"
-  }
+  "homepage": "https://github.com/AntonStolov/error-collector#readme"
 }
