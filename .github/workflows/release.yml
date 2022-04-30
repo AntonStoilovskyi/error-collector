@@ -18,10 +18,10 @@ jobs:
                   registry-url: https://registry.npmjs.org
             - name: npm install
               run: npm i
-            - name: compile
-              run: npm run compile
             - name: tsc
               uses: icrawl/action-tsc@v1
+            - name: compile
+              run: npm run compile
             - name: publish
               run: npm publish --access public
               env:
