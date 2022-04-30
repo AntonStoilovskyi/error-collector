@@ -19,7 +19,7 @@ jobs:
             - name: npm install
               run: npm i
             - name: compile
-              run: npm compile
+              run: npm run compile
             - name: tsc
               uses: icrawl/action-tsc@v1
             - name: publish
