@@ -21,8 +21,8 @@ jobs:
             - name: tsc
               uses: icrawl/action-tsc@v1
             - name: compile
-              run: npm run compile
+              run:  npm run compile
             - name: publish
-              run: npm publish --access public
+              run:  npm publish --access public
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
