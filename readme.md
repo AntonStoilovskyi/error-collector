@@ -3,7 +3,7 @@ Simple error bag collector
 
 Usage
 
-1. typescript example
+1. TypesScript example
 
 ```ts
 import { ErrorBag } from 'error-collector';
@@ -27,7 +27,7 @@ const { ErrorBag } = require('error-collector');
 const errorBag = new ErrorBag();
 
 try {
-    throw new Error('[ERROR] some error');
+    throw new Error('some error');
 } catch (error) {
     errorBag.add(error);
 }
