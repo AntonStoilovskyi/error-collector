@@ -1,6 +1,6 @@
 {
   "name": "error-collector",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,8 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/AntonStolov/error-collector.git"
   },
+  "keywords": ["error", "collector","error-collection", "error-bag", "error-log", "error-handler"],
+  "license": "MIT",
   "author": "AntonStolov",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/AntonStolov/error-collector/issues"
   },
