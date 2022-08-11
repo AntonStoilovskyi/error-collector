@@ -12,7 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/AntonStolov/error-collector.git"
   },
-  "keywords": ["error", "bag", "collector","error-collection", "error bag", "error-bag", "error-log", "error-handler"],
+  "keywords": [
+    "error",
+    "bag",
+    "collector",
+    "error-collection",
+    "error bag",
+    "error-bag",
+    "error-log",
+    "error-handler"
+  ],
   "license": "MIT",
   "author": "AntonStolov",
   "bugs": {
@@ -21,5 +30,10 @@
   "homepage": "https://github.com/AntonStolov/error-collector#readme",
   "dependencies": {
     "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-node": "^10.9.1"
   }
 }
